@@ -15,21 +15,3 @@ function onmousemove() {
         myitem.style.fontSize = "1em"
 //Once you move the mouse of the designated area it will result back to its origin
 }
-
-thebutton = document.getElementById("thebutton");  
-otheritem = document.getElementById("buttontest");
-//Shows a button element
-thebutton.addEventListener("click", onButtonClick);
-//Allows me to click on it
-function onButtonClick() {  
-    otheritem.style.color = "teal";  
-//Once I click on the button element, the text I chose will change colors
-}
-
-textentry = document.getElementById("myinput");  
-textentry.addEventListener("change", onChange);
-
-function onChange() {  
-    newtext = myinput.value;  
-    otheritem.innerHTML = newtext;  
-}
