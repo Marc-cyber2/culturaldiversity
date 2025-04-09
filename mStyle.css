@@ -1,9 +1,8 @@
-
-       body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: blue;
+    background-color: whitesmoke;
 }
 
 /* Header and Navigation */
@@ -25,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 18px;
 }
