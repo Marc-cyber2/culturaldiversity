@@ -15,3 +15,4 @@ function onmousemove() {
         myitem.style.fontSize = "1em"
 //Once you move the mouse of the designated area it will result back to its origin
 }
+
